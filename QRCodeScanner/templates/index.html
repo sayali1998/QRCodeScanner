@@ -1,0 +1,14 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QR Code Scanner</title>
+</head>
+<body>
+    <form action="/result" method="POST" enctype="multipart/form-data">
+        <input type="file" id="myFile" name="filename" accept="image/*">
+        <input type="submit">
+      </form>
+
+      {{ data }}
+</body>
+</html>
